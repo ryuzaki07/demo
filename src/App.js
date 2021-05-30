@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Count from './Count'
+//import Count from './Count'
+import Form from './Form'
 
 function App() {
   
   return (
   <div>
+    <Form/>
     
-    <Count msg="hello"/>
     
   </div>
   );

@@ -16,17 +16,21 @@ function Count(props){
      }*/
      //<button onClick={statemanipulatesecond}>Click Me!</button>
   console.log(array);
+  console.log(props.msg);
     return(
         <div>
             <button onClick={statemanipulate}>Click Me!</button>
             
-        <h1>{props.msg}</h1>
-        <p>{array.map((str,index)=>(
+        
+        <p>{props.msg.map((str,index)=>(
     <div>
-    <li key={index}>{str}</li>
+    <li key={index}>{str.task}</li>
     <li>{index}</li>
-    </div>))}</p>
-    <h3>{st.count} {st.text}</h3>
+    </div>
+    )
+    )
+    }</p>
+   
         </div>
     );
 
