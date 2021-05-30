@@ -1,15 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Count from './Count'
-import Nav from './nav'
+//import Count from './Count'
+import Form from './Form'
 
 function App() {
   
   return (
   <div>
+    <Form/>
     
-    <Count msg="hello"/>
-    <Nav/>
     
   </div>
   );
